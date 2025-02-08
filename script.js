@@ -50,13 +50,12 @@ const sadCat = [
 ];
 
 const blackmail = [
-  "Please",
-  "I'm begging you",
-  "I'm crying",
-  "I'm sad",
+  "Chaayos ka cake treat!?",
+  "will eat you",
+  "Paani mai fenk doonga",
+  "Regret mat karna phir",
   "HUHUHUHU",
-  "Please Say Yes",
-  "I'm gonna cry",
+  "Hn bhi bol de ab",
 ];
 
 function normal() {
@@ -104,7 +103,7 @@ function yes() {
     btns.style.display = "none";
     wedate.innerText = "We are dating now. I love you cutie.";
   } else {
-    alert("Kuch to Bhao khao cutie. Sidhe yes mat bola karo.");
+    alert("Kuch to Bhao khaa. Sidhe hn bhi mat bol.");
   }
 }
 
