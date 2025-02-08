@@ -41,17 +41,17 @@ function happy() {
 }
 
 const sadCat = [
-  "https://media1.tenor.com/images/9413ffc5a11722a3cc456a88810750bd/tenor.gif?itemid=14193216",
-  "https://emoji.gg/assets/emoji/5228_cat_cri.gif",
-  "https://media1.tenor.com/images/a0554662ae7c3c60c0a7fdadac74ef18/tenor.gif?itemid=13931206",
-  "https://media3.giphy.com/media/qpCvOBBmBkble/giphy.gif",
-  "https://c.tenor.com/fpIAhF2jIY0AAAAC/cat-crying.gif",
-  "https://c.tenor.com/BP70qe8X0J8AAAAC/crycat-crying-cat.gif",
+  "https://i.redd.it/i-keep-seeing-this-angry-cat-meme-does-anyone-know-what-v0-0o96ygkg9jw91.jpg?width=1080&format=pjpg&auto=webp&s=8a7220f58ae5e5ecbef518367d48b96f7327e06d",
+  "https://imgflip.com/s/meme/Cute-Cat.jpg",
+  "https://i.pinimg.com/originals/ea/0b/36/ea0b36dfa8e14f15b515bc469070de06.jpg",
+  "https://i.ytimg.com/vi/Q6Nsvrnnug8/maxresdefault.jpg",
+  "https://i.ytimg.com/vi/eXwZMAz9Vh8/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAVeD81lYf_ygdk1dICZMM1AtEY0w",
+  "resources/PHOTO-2025-02-08-20-33-19.jpg",
 ];
 
 const blackmail = [
   "Chaayos ka cake treat!?",
-  "will eat you",
+  "Will eat you",
   "Paani mai fenk doonga",
   "Regret mat karna phir",
   "HUHUHUHU",
@@ -71,8 +71,6 @@ function no() {
   counter++;
   let sadMusic = document.getElementById("sadMusic");
   let happyMusic = document.getElementById("happyMusic");
-  happyMusic.pause();
-  sadMusic.play();
   let model = document.getElementById("model");
   model.style.display = "none";
   setTimeout(() => {
@@ -90,10 +88,8 @@ function yes() {
     let model = document.getElementById("model2");
     let model2 = document.getElementById("model");
     let sadMusic = document.getElementById("sadMusic");
-    sadMusic.pause();
     model2.style.display = "none";
     let happyMusic = document.getElementById("happyMusic");
-    happyMusic.play();
     model.style.display = "none";
     setTimeout(() => {
       model.style.display = "flex";
@@ -101,9 +97,9 @@ function yes() {
     const wedate = document.getElementById("wedate");
     const btns = document.getElementById("btns");
     btns.style.display = "none";
-    wedate.innerText = "We are dating now. I love you cutie.";
+    wedate.innerText = "That was all for today. All for you :) 😊";
   } else {
-    alert("Kuch to Bhao khaa. Sidhe hn bhi mat bol.");
+    alert("Kuch to bhao khaa. Sidhe hn bhi mat bol.");
   }
 }
 
